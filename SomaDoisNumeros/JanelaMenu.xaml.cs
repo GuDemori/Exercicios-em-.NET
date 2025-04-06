@@ -37,5 +37,49 @@ namespace SomaDoisNumeros
             menu.Show();
             this.Close();
         }
+        private void AbrirMaioridade(object sender, RoutedEventArgs e)
+        {
+            VerificadorMaioridade janela = new VerificadorMaioridade();
+            janela.Show();
+            this.Close();
+        }
+        private void AbrirDescricaoEnum(object sender, RoutedEventArgs e)
+        {
+            ExibirDescricaoEnum janela = new ExibirDescricaoEnum();
+            janela.Show();
+            this.Close();
+        }
+        private void AbrirContadorCliques(object sender, RoutedEventArgs e)
+        {
+            ContadorCliques janela = new ContadorCliques();
+            janela.Show();
+            this.Close();
+        }
+        private void AbrirSimuladorParcelamento(object sender, RoutedEventArgs e)
+        {
+            SimuladorParcelamento janela = new SimuladorParcelamento();
+            janela.Show();
+            this.Close();
+        }
+        private void AbrirVerificarDiaSemana(object sender, RoutedEventArgs e)
+        {
+            VerificarDiaSemana janela = new VerificarDiaSemana();
+            janela.Show();
+            this.Close();
+        }
+        private void AbrirLigaDesliga(object sender, RoutedEventArgs e)
+        {
+            LigaDesliga janela = new LigaDesliga();
+            janela.Show();
+            this.Close();
+        }
+        private void AbrirSimuladorSorteio(object sender, RoutedEventArgs e)
+        {
+            SimuladorSorteio janela = new SimuladorSorteio();
+            janela.Show();
+            this.Close();
+        }
+
+
     }
 }

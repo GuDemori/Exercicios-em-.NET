@@ -10,6 +10,13 @@
         <Button Content="Soma de Dois Números" Click="AbrirSoma" Margin="0 5"/>
         <Button Content="Conversor de Temperatura" Click="AbrirConversor" Margin="0 5"/>
         <Button Content="Dias até Aniversário" Click="AbrirDias" Margin="0 5"/>
-        
+        <Button Content="Verificador de Maioridade" Click="AbrirMaioridade" Margin="0 5"/>
+        <Button Content="Descrição de Enum (Tipo de Usuário)" Click="AbrirDescricaoEnum" Margin="0 5"/>
+        <Button Content="Contador de Cliques" Click="AbrirContadorCliques" Margin="0 5"/>
+        <Button Content="Simulador de Parcelamento" Click="AbrirSimuladorParcelamento" Margin="0 5"/>
+        <Button Content="Verificar Dia da Semana" Click="AbrirVerificarDiaSemana" Margin="0 5"/>
+        <Button Content="Liga/Desliga (Interruptor)" Click="AbrirLigaDesliga" Margin="0 5"/>
+        <Button Content="Simulador de Sorteio" Click="AbrirSimuladorSorteio" Margin="0 5"/>
+
     </StackPanel>
 </Window>

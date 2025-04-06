@@ -1,0 +1,22 @@
+﻿<Window x:Class="SomaDoisNumeros.ExibirDescricaoEnum"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Descrição de Enum" Height="180" Width="350">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="0 5">
+            <Label Content="Tipo de Usuário:" Width="110"/>
+            <ComboBox x:Name="comboTipoUsuario" Width="200"/>
+        </StackPanel>
+
+        <Button Grid.Row="1" Content="Voltar ao Menu" Width="120" HorizontalAlignment="Left" Margin="0 5"
+                Click="BtnVoltar_Click"/>
+
+        <Button Grid.Row="1" Content="Exibir Descrição" Width="130" HorizontalAlignment="Right" Margin="0 5"
+                Click="BtnExibir_Click"/>
+    </Grid>
+</Window>
